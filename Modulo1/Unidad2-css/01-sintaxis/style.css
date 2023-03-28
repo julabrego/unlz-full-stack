@@ -1,0 +1,29 @@
+body {
+  background-color: blanchedalmond;
+}
+
+h1,
+h2 {
+  color: red;
+}
+
+h3 {
+  color: blue;
+}
+
+h2 {
+  text-align: center;
+}
+
+p,
+li {
+  color: brown;
+}
+
+strong {
+  font-size: large;
+}
+
+li {
+  list-style: none;
+}
