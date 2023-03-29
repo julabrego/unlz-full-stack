@@ -1,0 +1,51 @@
+div {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.fondo-color {
+  background-color: lightblue;
+}
+
+.fondo-imagen {
+  background-image: url("nyan.png");
+}
+
+.fondo-imagenes-superpuestas {
+  background-image: url("nyan.png"), url("fondo.jpg");
+}
+
+.fondo-imagen-horizontal {
+  background-image: url("nyan.png");
+  background-repeat: repeat-x;
+  background-color: darkblue;
+}
+
+.fondo-imagen-vertical {
+  background-image: url("nyan.png");
+  background-repeat: repeat-y;
+  background-color: darkblue;
+}
+
+.fondo-imagen-no-repeat {
+  background-image: url("nyan.png");
+  background-repeat: no-repeat;
+  background-color: darkblue;
+}
+
+.fondo-imagen-no-repeat-position {
+  background-image: url("nyan.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: darkblue;
+}
+
+.fondo-imagenes-attachment {
+  background-image: url("nyan.png"), url("fondo.jpg");
+  background-attachment: fixed;
+}
+
+.fondo-imagen-abreviado {
+  background: url("nyan.png") pink center no-repeat;
+}
