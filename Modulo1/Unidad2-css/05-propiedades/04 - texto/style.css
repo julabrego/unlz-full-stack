@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+  font-family: "Rubic Mono One";
+  src: local("Rubic Mono One"),
+    url("fonts/RubikMonoOne-Regular.ttf") format("opentype")
+}
+
+table,
+td,
+th {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+.font-size-150 {
+  font-size: 150%;
+}
+
+/* Nombres de fuente y su alternativa genérica" */
+.times-new-roman {
+  font-family: 'Times New Roman', serif
+}
+
+.georgia {
+  font-family: Georgia, serif
+}
+
+.garamond {
+  font-family: Garamond, serif
+}
+
+.arial {
+  font-family: Arial, sans-serif
+}
+
+.verdana {
+  font-family: Verdana, sans-serif
+}
+
+.helvetica {
+  font-family: Helvetica, sans-serif
+}
+
+.courier-new {
+  font-family: 'Courier New', monospace
+}
+
+.lucida-console {
+  font-family: 'Lucida Console', monospace
+}
+
+.monaco {
+  font-family: Monaco, monospace
+}
+
+.brush-script {
+  font-family: 'Brush Script MT', cursive
+}
+
+.lucida-handwriting {
+  font-family: 'Lucida Handwriting', cursive
+}
+
+.copperplate {
+  font-family: Copperplate, fantasy
+}
+
+.papyrus {
+  font-family: Papyrus, fantasy
+}
+
+/* fuentes web-safe */
+/*
+  Arial (sans-serif)
+  Verdana (sans-serif)
+  Tahoma (sans-serif)
+  Trebuchet MS (sans-serif)
+  Times New Roman (serif)
+  Georgia (serif)
+  Garamond (serif)
+  Courier New (monospace)
+  Brush Script MT (cursive)
+*7
+
+/* Fuente importada de google fonts en el html */
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Otra fuente importada usando la delcaración @import */
+
+.lobster {
+  font-family: 'Lobster', cursive;
+}
+
+/* Una fuente local usando @font-face */
+
+.rubic-mono-one {
+  font-family: 'Rubic Mono One', sans-serif;
+}
+
+/* Font-style */
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+/* Font-weight */
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
