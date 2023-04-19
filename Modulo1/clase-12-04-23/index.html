@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .borde-punteado {
+        border-style: dotted;
+        border-width: 15px;
+      }
+
+      li {
+        background-color: greenyellow;
+      }
+
+      .ancho-fijo {
+        width: 250px;
+      }
+
+      .ancho-porcentual {
+        width: 50%;
+      }
+
+      .texto-centrado {
+        text-align: center;
+      }
+    </style>
+
+    <title>Primeros estilos css</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="borde-rojo texto-centrado">Compra y venta de cosas</h1>
+        <nav>
+          <ul>
+            <li class="ancho-fijo texto-centrado">Home</li>
+            <li class="ancho-porcentual texto-centrado">Ofertas</li>
+            <li class="texto-centrado">Contacto</li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="borde-punteado">
+        <article>
+          <h2>Producto 1</h2>
+          <p class="borde-rojo">Este es el primer producto</p>
+        </article>
+
+        <article>
+          <h2>Producto 2</h2>
+          <p>Este es el segundo producto</p>
+        </article>
+
+        <article>
+          <h2>Producto 3</h2>
+          <p>Este es el tercer producto</p>
+        </article>
+      </section>
+
+      <section>
+        <article class="fondo-azul">
+          <h2>Sugerido 1</h2>
+          <p>Recomendado</p>
+        </article>
+
+        <article class="fondo-azul" id="destacado">
+          <h2>PRODUCTO DESTACADO</h2>
+          <p>Oferta de la semana</p>
+        </article>
+
+        <article class="fondo-azul">
+          <h2>Sugerido 3</h2>
+          <p>Recomendado</p>
+        </article>
+      </section>
+
+      <footer class="borde-rojo">
+        <h1>Todos los derechos reservados</h1>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+/* Selectores */
+
+/* Selectores simples */
+
+/* Selectores de ETIQUETA */
+header {
+  background-color: lightseagreen;
+}
+
+body {
+  background-color: bisque;
+}
+
+nav {
+  background-color: white;
+}
+
+article {
+  background-color: brown;
+}
+
+/* Selector de CLASE */
+/* El caracter . (punto) indica que se trata de una clase */
+.fondo-azul {
+  background-color: blue;
+}
+
+.borde-rojo {
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+/* Selector de ID */
+#destacado {
+  background-color: fuchsia;
+}
+
+/* Colores */
+.fondo-negro-hexadecimal {
+  background-color: #000000;
+}
+
+.fondo-blanco-rgb {
+  background-color: rgb(255, 255, 255);
+}
+
+.fondo-verde-hsl {
+  background-color: hsl(120, 100%, 50%);
+}
