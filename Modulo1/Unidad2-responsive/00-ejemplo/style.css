@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1,
+h3,
+h5,
+p {
+  margin: 0.5em 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  padding: 0.5em;
+}
+
+.header_nav {
+  text-align: center;
+  list-style: none;
+}
+
+.header_nav ul li {
+  display: inline-block;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+.card {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border: solid 1px #b4b4b4;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+.section_main .imagen {
+  width: 100%;
+  background-color: #b4b4b4;
+  height: 200px;
+}
+
+.extra .imagen {
+  width: 100%;
+  background-color: #b4b4b4;
+  height: 100px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #b4b4b4;
+}

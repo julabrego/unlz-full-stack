@@ -1,29 +1,16 @@
-div {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 #caja-1 {
-  background-color: lightslategray;
-  padding: 25px;
-  margin: 25px;
-  border: solid 10px slategray;
+  background-color: red;
+  border: solid 5px blue;
+  margin: 30px
 }
 
 #caja-2 {
-  background-color: lightcoral;
-  padding: 25px;
-  margin: 25px;
-  border: solid 10px slategray;
-  box-sizing: border-box;
-}
-
-#caja-3 {
-  background-color: lightgreen;
-  padding: 25px;
-  margin: 25px;
-  border: solid 10px slategray;
-  box-sizing: content-box;
+  background-color: yellow;
+  border: solid 5px brown;
+  margin: 30px
 }
