@@ -16,6 +16,10 @@ p {
   margin: 0.5em 0;
 }
 
+header {
+  width: 100%;
+}
+
 header h1 {
   text-align: center;
 }
