@@ -15,8 +15,27 @@ main {
   justify-content: space-between;
 }
 
+@media only screen and (max-width:599px) {
+  .menu-toggler img {
+    max-width: 32px;
+  }
+
+  .menu-toggler~ul {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+
+  .menu-toggler:focus~ul {
+    height: 48px;
+  }
+}
 
 @media screen and (min-width:600px) {
+  .menu-toggler {
+    display: none;
+  }
+
   .section_main .card {
     max-width: 49%;
   }
