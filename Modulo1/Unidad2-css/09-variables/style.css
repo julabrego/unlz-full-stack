@@ -1,0 +1,36 @@
+:root {
+  --rojo: red;
+  --azul: blue;
+  --azul600: rgb(0, 10, 51);
+  --amarillo: yellow;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 20px
+}
+
+.rojo {
+  background-color: var(--rojo);
+}
+
+.azul {
+  background-color: var(--azul);
+}
+
+.azul600 {
+  background-color: var(--azul600);
+}
+
+.amarillo {
+  background-color: var(--amarillo);
+}
+
+.text-rojo {
+  color: var(--rojo)
+}
+
+.text-azul {
+  color: var(--azul)
+}
