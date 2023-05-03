@@ -34,3 +34,8 @@ div {
 .text-azul {
   color: var(--azul)
 }
+
+section {
+  --rojo: purple;
+  --azul: yellow
+}
